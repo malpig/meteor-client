@@ -17,6 +17,7 @@ public class Tabs {
     @PreInit
     public static void init() {
         add(new ModulesTab());
+        add(new Modules2Tab());
         add(new ConfigTab());
         add(new GuiTab());
         add(new HudTab());
